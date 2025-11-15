@@ -2,6 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/login.jsx';
+import AboutPage from './pages/signup.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
